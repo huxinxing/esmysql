@@ -1,0 +1,9 @@
+server:
+  port: 8089
+spring:
+  application:
+    name: train_es
+  data:
+    elasticsearch:
+      cluster-nodes: 10.0.0.18:9300
+      cluster-name: chaindigg-zhifan
